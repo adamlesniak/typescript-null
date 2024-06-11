@@ -1,0 +1,24 @@
+{
+  "name": "typescript-null",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "author": "adam@alesniak.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "tsnd ./src/app.ts",
+    "lint": "eslint ./src",
+    "prettier:write": "prettier ./src --write"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "prettier": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.13.0"
+  }
+}
